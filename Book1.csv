@@ -1,0 +1,39 @@
+﻿agent_id,call_id,ts,turn,event_name,event_code,event_detail,latency
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:05 PM,0,CallStart,,"[{""call_id"": ""1c7792ee-313a-4411-962c-b0f4914df8a6""}, {""campaign_id"": ""cb53ebe9-0d98-4d75-aa86-0cc44851b88b""}, {""campaign_name"": ""CAMPAIGN+3""}, {""campaign_uuid"": ""cb53ebe9-0d98-4d75-aa86-0cc44851b88b""}, {""fallback_extension"": ""99999""}, {""lead_id"": ""0e3b0648-6441-484c-b568-c184276b1c93""}, {""order_cod"": ""100000""}, {""order_content"": ""Nước dưỡng hoa tươi lâu""}, {""phone_number"": ""0348800549""}, {""ref_id"": """"}, {""tenant"": ""ghncxprod.tel4vn.com""}, {""tenant_id"": ""fbcfd468-8e20-4ada-9a72-373b56906c3b""}, {""transfer_extension"": ""88888""}, {""updated_date"": ""ngày 11, tháng 8""}, {""webhook_url"": ""https://pitel04-api.tel4vn.com/v3/cdr/voicebotresult""}, {""x_client_channel"": ""mono_a""}, {""x_client_channel_leg"": """"}, {""x_client_ws_url"": ""d3NzOi8vdm9pY2Vib3QtZW5naW5lLXByby52b2ljZS5haS52bi9naG4tY3gtMi13cw==""}]",0
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:05 PM,0,LLM,,"Xin chào anh chị. Em gọi từ Giao Hàng Nhanh để xác nhận đơn hàng Nước dưỡng hoa tươi lâu, số tiền 100000. Cuộc gọi này có thể được ghi âm nhằm phục vụ nâng cao chất lượng dịch vụ. Anh chị tiện vài giây trao đổi không ạ?",5
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:05 PM,0,TTS,,,257
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:22 PM,1,STT,,Ai mô,231
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:23 PM,1,LLM,,"Em xin lỗi anh/chị, anh/chị có thể nghe em nói không ạ?",862
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:24 PM,1,TTS,,,192
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:31 PM,2,STT,,Nghe nghe,225
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:32 PM,2,LLM,,Đơn hàng này đã có lần giao không thành công. Hiện anh/chị còn muốn nhận đơn hàng Nước dụng hoa tươi lâu không ạ?,1024
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:32 PM,2,TTS,,,210
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:39 PM,3,STT,,Tốn ghy,182
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:40 PM,3,LLM,,Anh/chị muốn nhận đơn này hay không ạ?,932
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:40 PM,3,TTS,,,166
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:42 PM,3,Barge-in,,,0
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:48 PM,4,STT,,Trăm ngàn là bên đây đặt kích rễ chứ không phải dưỡng bông,245
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:48 PM,4,LLM,,"Em hiểu là anh/chị đang thắc mắc về nội dung đơn. Đơn hàng Nước dụng hoa tươi lâu, thụ học 100000. Anh/chị vẫn muốn nhận đơn này không ạ?",847
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:49 PM,4,TTS,,,207
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:49 PM,4,Barge-in,,,0
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:50 PM,5,STT,,Tiết dễ,229
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:51 PM,5,LLM,,Anh/chị còn muốn nhận đơn Nước dưỡng hoa tươi lâu này không ạ?,802
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:51 PM,5,TTS,,,205
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:52 PM,5,Barge-in,,,0
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:53 PM,5,STT,RETRY_1,STT request failed on attempt 1/3; retrying,0
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:54 PM,6,STT,,Nghe rõ không ạ,204
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:54 PM,6,LLM,,Anh/chị vẫn muốn nhận đơn hàng này không ạ?,783
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:55 PM,6,TTS,,,165
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:55 PM,6,Barge-in,,,0
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:56 PM,7,STT,,Khác dưỡng con nó khác,214
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:57 PM,7,LLM,,"Em xin lỗi anh/chị, để em chắc chắn lại: anh/chị vẫn muốn nhận đơn Nước dưỡng hoa tươi lâu (số tiền một trăm nghìn) không ạ?",613
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:11:57 PM,7,TTS,,,278
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:12:02 PM,7,Barge-in,,,0
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:12:07 PM,8,STT,,Bên đó nha qua bên đây thì bộ dưỡng bông chứ không phải kích hoạt,327
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:12:08 PM,8,LLM,,Anh/chị có muốn nhận đơn hàng Nước dưỡng hoa tươi lâu này không ạ?,842
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:12:08 PM,8,TTS,,,162
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:12:10 PM,8,Barge-in,,,0
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:12:13 PM,9,STT,,Xem lại xem lại,223
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:12:14 PM,9,LLM,,Anh/chị vẫn muốn nhận đơn hàng Nước dưỡng hoa tươi lâu này không ạ?,664
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:12:14 PM,9,TTS,,,196
+7d54ad12-1ed2-49cb-bb4e-2185cc912e6f,1c7792ee-313a-4411-962c-b0f4914df8a6,5:12:17 PM,9,CallEnd,S_CUSTOMER_HANGUP,,0
