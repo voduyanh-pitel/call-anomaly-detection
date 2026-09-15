@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "call-analyzer"
+version = "3.0.0"
+description = "Keyword-based quality metrics for a single voice-bot call"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas"
+]
+
+[tool.setuptools]
+packages = ["call_analyzer"]
