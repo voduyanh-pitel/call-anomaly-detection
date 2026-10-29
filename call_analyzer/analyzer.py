@@ -49,6 +49,11 @@ def analyze_call(logs, keywords=None):
     cust_objection = 0
     complain_already_answered = 0
 
+    cust_objection_turns = []
+    complain_already_answered_turns = []
+    bargein_object_turns = []
+    bargein_confirm_turns = []
+
     for index, row in group.iterrows():
         event_name = str(row.get("event_name", ""))
         event_code = row.get("event_code", "")
@@ -60,8 +65,10 @@ def analyze_call(logs, keywords=None):
                 stt_sentences.append(_normalize_for_repeat(cleaned))
                 if any(keyword in cleaned for keyword in kw.object_keywords):
                     cust_objection += 1
+                    cust_objection_turns.append(row.get("turn"))
                 if any(keyword in cleaned for keyword in kw.complain_keywords):
                     complain_already_answered += 1
+                    complain_already_answered_turns.append(row.get("turn"))
         elif event_name == "Barge-in":
             following_stt = group.iloc[index + 1:]
             following_stt = following_stt[following_stt["event_name"] == "STT"]
@@ -74,15 +81,23 @@ def analyze_call(logs, keywords=None):
                 bargein_type = classify_bargein_type(cleaned, kw)
                 if bargein_type == "object":
                     bargein_object += 1
+                    turn = row.get("turn")
+                    bargein_object_turns.append(turn + 1 if isinstance(turn, (int, float)) and not isinstance(turn, bool) else turn)
                 elif bargein_type == "confirm":
                     bargein_confirm += 1
+                    turn = row.get("turn")
+                    bargein_confirm_turns.append(turn + 1 if isinstance(turn, (int, float)) and not isinstance(turn, bool) else turn)
                 break
 
 
     return {
         "call_id": call_id,
         "cust_objection": cust_objection,
+        "cust_objection_turns": cust_objection_turns,
         "complain_already_answered": complain_already_answered,
+        "complain_already_answered_turns": complain_already_answered_turns,
         "bargein_confirm": bargein_confirm,
+        "bargein_confirm_turns": bargein_confirm_turns,
         "bargein_object": bargein_object,
+        "bargein_object_turns": bargein_object_turns,
     }

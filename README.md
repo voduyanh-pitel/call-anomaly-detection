@@ -24,13 +24,18 @@ qua cho `analyze_call`:
 python main.py
 ```
 
-Ket qua tra ve 3 metric cho mot cuoc goi:
+Ket qua tra ve 5 metric cho mot cuoc goi, moi metric di kem danh sach turn:
 
 ```
-{'call_id': '1c7792ee-313a-4411-962c-b0f4914df8a6',
+{'call_id': '...',
  'cust_objection': 2,
+ 'cust_objection_turns': [...],
  'complain_already_answered': 0,
- 'bargein_object': 2}
+ 'complain_already_answered_turns': [...],
+ 'bargein_confirm': 1,
+ 'bargein_confirm_turns': [...],
+ 'bargein_object': 2,
+ 'bargein_object_turns': [...]}
 ```
 
 ## Su dung - goi ham tu code
@@ -44,6 +49,6 @@ metrics = analyze_call(logs)
 Dau vao la log cua mot cuoc goi dang `pandas.DataFrame` hoac `list[dict]`,
 gom `call_id`, `ts`, `turn`, `event_name`, `event_detail`, `event_code`.
 
-Ket qua chi gom 3 metric:
+Ket qua gom 5 metric, moi metric di kem danh sach turn:
 
-`call_id`, `cust_objection`, `complain_already_answered`, `bargein_object`.
+`call_id`, `cust_objection`, `cust_objection_turns`, `complain_already_answered`, `complain_already_answered_turns`, `bargein_confirm`, `bargein_confirm_turns`, `bargein_object`, `bargein_object_turns`.
